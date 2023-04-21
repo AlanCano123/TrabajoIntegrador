@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+   background: #353A40;
+   display: inline-block;
+   width: 100%;
+   top: 0;
+   z-index: 10;
+}
+
+.logo {
+   display: inherit;
+}
+
+.logo img {
+   height: 75px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+h2 {
+   color: white;
+   display: inline-block;
+}
+
+nav {
+   display: inline-block;
+   float: right;
+   padding: 25px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+}
+
+.botton-comprar {
+   color: green;
+}
+
+section {
+   height: 100vh;
+   position: relative;
+}
+
+section > img {
+   height: 100%;
+   width: 100%;
+}
+
+.container-conferencia {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   text-align: right;
+   color: white;
+}
+.first-paragraph{
+   padding: 10px;
+   font-weight:bolder;
+}
+
+.enlace-1 {
+   padding: 10px;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+
+.enlace-2 {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: green;
+}
+
+h3,
+h4 {
+   text-align: center;
+}
+
+.contenedor-lugar{
+   justify-content: center;
+}
+
+#lugar {
+   display: flex;
+   background-color: #353A40;
+   margin: 1%;
+   align-items: top;
+   color: aliceblue;
+   height: 5%;
+}
+.container-lugar{
+   padding: 1%;
+}
+#lugar img {
+   width: 50%;
+   height: 50%;
+}
+
+#lugar a{
+   border: red;
+}
+
+.formulario{
+   padding: 1%;
+   height: 50%;
+}
